@@ -1,0 +1,184 @@
+{
+  "players": {
+    "player1#EUW": {
+      "username": "player1#EUW",
+      "rank": "Gold 3",
+      "kdRatio": "1.25",
+      "winRate": "53%"
+    },
+    "player2#NA": {
+      "username": "player2#NA",
+      "rank": "Platinum 2",
+      "kdRatio": "1.50",
+      "winRate": "60%"
+    },
+    "player3#EUW": {
+      "username": "player3#EUW",
+      "rank": "Silver 1",
+      "kdRatio": "0.95",
+      "winRate": "48%"
+    },
+    "player4#AP": {
+      "username": "player4#AP",
+      "rank": "Bronze 2",
+      "kdRatio": "0.87",
+      "winRate": "45%"
+    },
+    "player5#NA": {
+      "username": "player5#NA",
+      "rank": "Diamond 1",
+      "kdRatio": "1.78",
+      "winRate": "65%"
+    },
+    "player6#EUW": {
+      "username": "player6#EUW",
+      "rank": "Gold 1",
+      "kdRatio": "1.20",
+      "winRate": "51%"
+    },
+    "player7#NA": {
+      "username": "player7#NA",
+      "rank": "Iron 3",
+      "kdRatio": "0.70",
+      "winRate": "40%"
+    },
+    "player8#EUW": {
+      "username": "player8#EUW",
+      "rank": "Immortal 2",
+      "kdRatio": "2.10",
+      "winRate": "72%"
+    },
+    "player9#AP": {
+      "username": "player9#AP",
+      "rank": "Bronze 1",
+      "kdRatio": "0.85",
+      "winRate": "44%"
+    },
+    "player10#NA": {
+      "username": "player10#NA",
+      "rank": "Radiant",
+      "kdRatio": "3.00",
+      "winRate": "80%"
+    },
+    "player11#EUW": {
+      "username": "player11#EUW",
+      "rank": "Gold 2",
+      "kdRatio": "1.18",
+      "winRate": "52%"
+    },
+    "player12#AP": {
+      "username": "player12#AP",
+      "rank": "Platinum 1",
+      "kdRatio": "1.45",
+      "winRate": "58%"
+    },
+    "player13#NA": {
+      "username": "player13#NA",
+      "rank": "Iron 1",
+      "kdRatio": "0.60",
+      "winRate": "38%"
+    },
+    "player14#EUW": {
+      "username": "player14#EUW",
+      "rank": "Diamond 3",
+      "kdRatio": "1.90",
+      "winRate": "68%"
+    },
+    "player15#NA": {
+      "username": "player15#NA",
+      "rank": "Silver 3",
+      "kdRatio": "1.10",
+      "winRate": "50%"
+    },
+    "player16#AP": {
+      "username": "player16#AP",
+      "rank": "Gold 1",
+      "kdRatio": "1.23",
+      "winRate": "53%"
+    },
+    "player17#EUW": {
+      "username": "player17#EUW",
+      "rank": "Platinum 3",
+      "kdRatio": "1.60",
+      "winRate": "61%"
+    },
+    "player18#NA": {
+      "username": "player18#NA",
+      "rank": "Iron 2",
+      "kdRatio": "0.75",
+      "winRate": "42%"
+    },
+    "player19#AP": {
+      "username": "player19#AP",
+      "rank": "Bronze 3",
+      "kdRatio": "0.92",
+      "winRate": "47%"
+    },
+    "player20#EUW": {
+      "username": "player20#EUW",
+      "rank": "Diamond 2",
+      "kdRatio": "1.85",
+      "winRate": "66%"
+    },
+    "player21#NA": {
+      "username": "player21#NA",
+      "rank": "Gold 2",
+      "kdRatio": "1.22",
+      "winRate": "55%"
+    },
+    "player22#AP": {
+      "username": "player22#AP",
+      "rank": "Silver 2",
+      "kdRatio": "1.00",
+      "winRate": "49%"
+    },
+    "player23#EUW": {
+      "username": "player23#EUW",
+      "rank": "Radiant",
+      "kdRatio": "2.75",
+      "winRate": "78%"
+    },
+    "player24#NA": {
+      "username": "player24#NA",
+      "rank": "Bronze 2",
+      "kdRatio": "0.88",
+      "winRate": "46%"
+    },
+    "player25#AP": {
+      "username": "player25#AP",
+      "rank": "Iron 3",
+      "kdRatio": "0.73",
+      "winRate": "41%"
+    },
+    "player26#EUW": {
+      "username": "player26#EUW",
+      "rank": "Platinum 2",
+      "kdRatio": "1.52",
+      "winRate": "57%"
+    },
+    "player27#NA": {
+      "username": "player27#NA",
+      "rank": "Silver 1",
+      "kdRatio": "1.05",
+      "winRate": "48%"
+    },
+    "player28#AP": {
+      "username": "player28#AP",
+      "rank": "Gold 3",
+      "kdRatio": "1.29",
+      "winRate": "54%"
+    },
+    "player29#EUW": {
+      "username": "player29#EUW",
+      "rank": "Iron 2",
+      "kdRatio": "0.65",
+      "winRate": "43%"
+    },
+    "player30#NA": {
+      "username": "player30#NA",
+      "rank": "Diamond 1",
+      "kdRatio": "1.75",
+      "winRate": "63%"
+    }
+  }
+}
