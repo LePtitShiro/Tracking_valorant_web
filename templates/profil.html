@@ -1,10 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil Valorant - {{ name.username }}</title>
+    <link rel="stylesheet" href="../static/css/profil.css">
 </head>
 <body>
+    <div class="container">
+        <div class="header">
+            <h1>Profil du joueur Valorant : {{ name.username }}</h1>
+        </div>
+        <div class="profile-header">
+{#            <img src="{{ name.avatar_url }}" alt="Avatar du joueur">#}
+            <div class="details">
+                <h2>{{ name.username }}</h2>
+                <p>Rang actuel : {{ name.rank }}</p>
+                <p>ID Riot : {{ name.riot_id }}</p>
+            </div>
+        </div>
 
+        <div class="stats-section">
+            <h2>Statistiques générales</h2>
+            <div class="stats-grid">
+                <div class="stat-box">
+                    <h3>Matches joués</h3>
+                    <p>{{ name.total_games }}</p>
+                </div>
+                <div class="stat-box">
+                    <h3>Victoire</h3>
+                    <p>{{ name.total_wins }}</p>
+                </div>
+                <div class="stat-box">
+                    <h3>K/D Ratio</h3>
+                    <p>{{ name.kdRatio }}</p>
+                </div>
+                <div class="stat-box">
+                    <h3>Taux de Headshot</h3>
+                    <p>{{ name.hs }}%</p>
+                </div>
+                <div class="stat-box">
+                    <h3>Temps de jeu</h3>
+                    <p>{{ name.times_played }} heures</p>
+                </div>
+                <div class="stat-box">
+                    <h3>Agents favoris</h3>
+                    <p>{{ name.agent }}</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="stats-section">
+            <h2>Derniers matchs</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Agent</th>
+                        <th>Score</th>
+                        <th>K/D</th>
+                        <th>Victoire</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for match in name.derniers_matchs %}
+                    <tr>
+                        <td>{{ name.date }}</td>
+                        <td>{{ name.agent }}</td>
+                        <td>{{ name.score }}</td>
+                        <td>{{ name.kd }}</td>
+                        <td>{{ name.victoire }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
 </body>
 </html>
