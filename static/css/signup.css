@@ -1,5 +1,3 @@
-/* TODO : "Tracking." police crypté ? */
-
 /* Réinitialisation de certains styles par défaut */
 * {
     margin: 0;
@@ -18,17 +16,17 @@ body {
     min-height: 100vh;
 }
 
-/* Style de la barre de navigation */
+/* Barre de navigation (reprise) */
 nav {
     position: fixed;
-    top: 20px; /* Ajoute un espace entre le haut de la page et la barre de navigation */
+    top: 20px;
     left: 50%;
-    transform: translateX(-50%); /* Centre horizontalement la barre de navigation */
-    width: 90%; /* Ajuste la largeur de la barre de navigation pour qu'elle ne colle pas aux bords */
+    transform: translateX(-50%);
+    width: 90%;
     background-color: #25253a;
     z-index: 1000;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ombre pour un effet de profondeur */
-    border-radius: 15px; /* Bords arrondis */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
 }
 
 nav ul {
@@ -57,9 +55,9 @@ nav ul li a:hover {
     border-radius: 5px;
 }
 
-/* Espacement sous la barre de navigation pour que le contenu ne soit pas caché */
+/* Conteneur pour le formulaire de connexion */
 .container {
-    margin-top: 120px; /* Ajuste cette valeur pour laisser assez de place pour la barre de navigation */
+    margin-top: 120px;
     text-align: center;
     background-color: #2a2a4a;
     padding: 50px;
@@ -68,22 +66,22 @@ nav ul li a:hover {
     width: 400px;
 }
 
-
+/* Titre */
 h1 {
     font-size: 48px;
     margin-bottom: 20px;
     font-weight: bold;
     color: #e94560;
-    /*font-family: "Roboto Slab", serif; */
 }
 
+/* Sous-titre */
 h2 {
     margin: 20px 0;
     color: #f5f5f5;
     font-size: 18px;
 }
 
-/* Formulaire */
+/* Formulaire de connexion */
 form {
     margin-bottom: 20px;
 }
@@ -94,7 +92,7 @@ label {
     font-size: 16px;
 }
 
-input[type="text"] {
+input[type="text"], input[type="password"], input[type="email"]{
     width: 100%;
     padding: 15px;
     font-size: 16px;
@@ -107,11 +105,11 @@ input[type="text"] {
     transition: background-color 0.3s ease;
 }
 
-input[type="text"]::placeholder {
+input::placeholder {
     color: #bbb;
 }
 
-input[type="text"]:focus {
+input:focus {
     background-color: #4c4c7f;
 }
 
@@ -131,18 +129,18 @@ button:hover {
     box-shadow: 0 5px 15px rgba(233, 69, 96, 0.4);
 }
 
-
-#sign_up_button {
+/* Bouton "Créer un compte" */
+#login_button {
     margin-top: 10px;
     background-color: #3ddc97;
 }
 
-#sign_up_button:hover {
+#login_button:hover {
     background-color: #51efb5;
     box-shadow: 0 5px 15px rgba(61, 220, 151, 0.4);
 }
 
-/* Pour les petits écrans */
+/* Petits écrans */
 @media (max-width: 768px) {
     .container {
         width: 90%;

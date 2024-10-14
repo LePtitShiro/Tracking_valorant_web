@@ -1,3 +1,5 @@
+
+
 /* Réinitialisation de certains styles par défaut */
 * {
     margin: 0;
@@ -5,6 +7,44 @@
     box-sizing: border-box;
 }
 
+/* Style de la barre de navigation */
+nav {
+    position: fixed;
+    top: 20px; /* Ajoute un espace entre le haut de la page et la barre de navigation */
+    left: 50%;
+    transform: translateX(-50%); /* Centre horizontalement la barre de navigation */
+    width: 90%; /* Ajuste la largeur de la barre de navigation pour qu'elle ne colle pas aux bords */
+    background-color: #25253a;
+    z-index: 1000;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Ombre pour un effet de profondeur */
+    border-radius: 15px; /* Bords arrondis */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #f5f5f5;
+    font-size: 18px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: #f5f5f5;
+    color: #1e1e2e;
+    border-radius: 5px;
+}
 /* Style global du corps */
 body {
     font-family: 'Arial', sans-serif;

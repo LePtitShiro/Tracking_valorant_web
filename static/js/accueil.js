@@ -1,5 +1,3 @@
-/* TODO: input id="tracker_input" récupérer la valeur */
-/* TODO: quand on clique profil, on redirige vers /profil/username */
 
 document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('tracker_form');
@@ -10,5 +8,9 @@ document.addEventListener('DOMContentLoaded', () => {
             window.location.href = `/profil/${encodeURIComponent(input)}`;
         }
     });
+});
+
+document.getElementById("sign_up_button").addEventListener("click", function() {
+    window.location.href = "/signup";
 });
 

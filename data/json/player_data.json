@@ -12,7 +12,89 @@
       "total_games": "138",
       "agent": "Astra",
       "times_played": "276",
-      "hs": "70"
+      "hs": "70",
+      "matchs" : [
+        {
+          "match_id": "1",
+          "date": "2021-10-10",
+          "agent": "Astra",
+          "map": "Bind",
+          "score": "13-10",
+          "kdRatio": "1.25",
+          "hs": "70",
+          "win": "true"
+        },
+        {
+          "match_id": "2",
+          "date": "2021-10-11",
+          "agent": "Astra",
+          "map": "Haven",
+          "score": "13-10",
+          "kdRatio": "1.25",
+          "hs": "70",
+          "win": "true"
+        },
+        {
+          "match_id": "3",
+          "date": "2021-10-12",
+          "agent": "Astra",
+          "map": "Split",
+          "score": "10-13",
+          "kdRatio": "1.25",
+          "hs": "70",
+          "win": "false"
+        },
+        {
+          "match_id": "4",
+          "date": "2021-10-13",
+          "agent": "Astra",
+          "map": "Ascent",
+          "score": "13-10",
+          "kdRatio": "1.25",
+          "hs": "70",
+          "win": "true"
+        },
+        {
+          "match_id": "5",
+          "date": "2021-10-14",
+          "agent": "Astra",
+          "map": "Icebox",
+          "score": "10-13",
+          "kdRatio": "1.25",
+          "hs": "70",
+          "win": "false"
+        },
+        {
+          "match_id": "6",
+          "date": "2021-10-15",
+          "agent": "Astra",
+          "map": "Breeze",
+          "score": "13-10",
+          "kdRatio": "1.25",
+          "hs": "70",
+          "win": "true"
+        },
+        {
+          "match_id": "7",
+          "date": "2021-10-12",
+          "agent": "Astra",
+          "map": "Haven",
+          "score": "10-13",
+          "kdRatio": "1.25",
+          "hs": "70",
+          "win": "false"
+        },
+        {
+          "match_id": "8",
+          "date": "2021-10-10",
+          "agent": "Astra",
+          "map": "Bind",
+          "score": "13-10",
+          "kdRatio": "1.25",
+          "hs": "70",
+          "win": "true"
+        }
+      ]
     },
     "player2#NA": {
       "riot_id": "player2#NA",
